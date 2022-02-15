@@ -26,9 +26,6 @@ def selection_sort(my_array):
 
         my_array[i], my_array[min_idx] = my_array[min_idx], my_array[i]
         yield my_array
-    # print("Sorted array")
-    # for _, item in enumerate(my_array):
-    #     print(item)
 
 
 def insertion_sort(my_array):
@@ -77,7 +74,7 @@ def partition(arr, low, high):
     return i+1
 
 
-def quick_sort(arr, low, high):
+def quick_sort(arr, low=0, high=124):
     """
     :param arr: Array
     :param low: starting index
@@ -86,6 +83,7 @@ def quick_sort(arr, low, high):
     While the low and high are not the same, it will break each array into two parts choosing the
     pivot value as the last value in the array. All done in place.
     Recursively partition array based on a middle value
+    n = 125
     """
     if low < high:
         piv = partition(arr, low, high)
@@ -179,6 +177,7 @@ def heap_sort(arr):
     and reduces the size of the heap by 1. Then we continue to get the largest value at the root
     until the array is sorted.
     Place the values into a sorted tree structure
+    n = 200
     """
     n = len(arr)
     x = n // 2-1
@@ -358,6 +357,12 @@ def radix_sort_m(arr):
 
 
 def shell_sort(arr):
+    """
+    The method starts by sorting pairs of elements far apart from each other,
+    then progressively reducing the gap between elements to be compared.
+
+    Use 128 values
+    """
     gap = len(arr) // 2  # initialize the gap
 
     while gap > 0:
@@ -498,7 +503,7 @@ def bitomerge(arr, l, c, order):
         bitomerge(arr, l+k, k, order)
 
 
-def bitonic_sort(arr, l, c, order):
+def bitonic_sort(arr, l=0, c=128, order=True):
     """
     Bitonic Sort must be done if number of elements to sort are 2^n. The procedure
     of bitonic sequence fails if the number of elements are not in the aforementioned
@@ -531,7 +536,6 @@ def is_sorted(arr):
     for i in range(0, n - 1):
         if arr[i] > arr[i + 1]:
             return False
-
     return True
 
 
@@ -545,7 +549,7 @@ def shuffle(arr):
 
 def bogo_sort(arr):
     """
-    The algorithm successively generates permutations of its input until it finds one that is sorted.
+    The algorithm successively generates (random) permutations of its input until it finds one that is sorted.
     """
     iterations = 0
     while not is_sorted(arr):
