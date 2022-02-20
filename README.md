@@ -17,9 +17,8 @@ Shaker sort, Gnome sort, Bitonic sort, and Bogo sort
 #### Heap Sort
 https://user-images.githubusercontent.com/48257546/154864994-1b0f6619-3e65-4a47-be03-00dd42580962.mov
 
-
 #### Radix Sort (Most Significant Digit)
-https://user-images.githubusercontent.com/48257546/154864803-13d1493e-c604-47c8-86bb-b5f73235e540.mov
+https://user-images.githubusercontent.com/48257546/154865146-36d74c1e-2c62-4502-b926-6967ea92bf9f.mov
 
 #### Cocktail Sort
-https://user-images.githubusercontent.com/48257546/154864852-d962846e-04ab-4ca7-9968-c36ac1dfec0f.mov
+https://user-images.githubusercontent.com/48257546/154865329-c6e171cb-e5c6-4747-bf92-c993037fbe44.mov
