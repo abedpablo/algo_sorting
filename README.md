@@ -21,5 +21,6 @@ https://user-images.githubusercontent.com/48257546/154864994-1b0f6619-3e65-4a47-
 https://user-images.githubusercontent.com/48257546/154865146-36d74c1e-2c62-4502-b926-6967ea92bf9f.mov
 
 #### Cocktail Sort
-https://user-images.githubusercontent.com/48257546/154865366-e10aed06-94f1-4cab-b791-9c9700c9c445.mov
+https://user-images.githubusercontent.com/48257546/154865750-dbd75912-583e-44dd-a0c5-2f86e687cca5.mov
+
 
