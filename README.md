@@ -5,7 +5,7 @@ video (<a href="https://github.com/bingmann/sound-of-sorting">repository here</a
 
 Through this project, I learned a lot about the methods and techniques
 of theoretical computer science and algorithm analysis. I was able to
-utlize tools such binary trees and generators along with staying aware  
+utilize tools such binary trees and generators along with staying aware  
 of time and space complexities. 
 
 ## Algorithms
